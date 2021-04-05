@@ -1,5 +1,5 @@
 # Letreros-ASCII
-## Descripción:
+## Descripción: Buenos Dias
 ### Integrantes:
 * Julián Esteban Gómez López
 * Andrés Felipe Saldarriaga Arias
