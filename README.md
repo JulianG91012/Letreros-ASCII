@@ -5,7 +5,7 @@
 * Andrés Felipe Saldarriaga Arias @MoreCodeLess
 ## Imagenes: 
 Imagen subida por Julian: 
-![Foto de mi gata :3](/Este Equipo/Descargas/Cosas Random/Pelusa/6.png)
+![A little bit](A littel bite.jpg)
 
 
 
