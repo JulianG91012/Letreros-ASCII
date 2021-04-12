@@ -5,7 +5,7 @@
 * Andrés Felipe Saldarriaga Arias @MoreCodeLess
 ## Imagenes: 
 Imagen subida por Julian: 
-![A little bit](A littel bite.jpg)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
 
