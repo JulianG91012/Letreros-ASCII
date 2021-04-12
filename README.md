@@ -6,8 +6,11 @@
 ## Imagenes: 
 Imagen subida por Julian: 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+Imagen subida por Andrés: 
+![Image of Shen](shen.jpg)
 ## Emojis: 
-Primer Emoji: 
+Primer Emoji Julian: 
 :upside_down_face:
-
+Primer Emoji Andrés:
+:metal:
 
