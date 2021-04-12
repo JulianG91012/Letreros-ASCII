@@ -2,4 +2,5 @@
 07/04/2021
 Se crea el archivo de seguimiento
 11/04/2021
-Se sube la primera imagen
+Se sube la primera imagen, varios intentos para lograrlo
+Se sube el primer emoji
