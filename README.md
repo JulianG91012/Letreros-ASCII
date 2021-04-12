@@ -5,7 +5,7 @@
 * Andrés Felipe Saldarriaga Arias @MoreCodeLess
 ## Imagenes: 
 Imagen subida por Julian: 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Pelusa](C:\Users\USUARIO\Downloads\Cosas Random\Pelusa\Pelusa\A_little_bite.jpg)
 ## Emojis: 
 Primer Emoji: 
 :upside_down_face:
