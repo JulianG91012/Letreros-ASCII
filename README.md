@@ -5,7 +5,7 @@
 * Andrés Felipe Saldarriaga Arias @MoreCodeLess
 ## Imagenes: 
 Imagen subida por Julian: 
-![Pelusa](./Imagenes/A_little_bite.jpg)
+![Pelusa](./Imagenes/A_littel_bite.jpg)
 Imagen subida por Andrés: 
 ![Image of Shen](./Imagenes/shen.jpg)
 >>>>>>> b8252c38b8ba83d9a57081e50a1f25878166f40b
