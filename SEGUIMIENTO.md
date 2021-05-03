@@ -32,19 +32,29 @@
 ### 20 de Abril 021
 
 - ¿Qué hemos hecho?
+
   Se logra poner una imagen no predeterminada
+  
 - ¿Que voy a hacer?
+
   Organizar en el repositorio del profe la letra de la canción con el archivo .midi
+  
 -¿Que dificultades tengo?
+
   Elección de aplicación del trabajo final
 
 ### 26 de Abril 2021
 
 - ¿Qué hemos hecho?
+
   Discutir acerca de qué aplicación usaríamos
+  
 - ¿Que voy a hacer?
+
   Organizar el Seguimiento correctamente
+  
 -¿Que dificultades tengo?
+
   Elegir una aplicación creativa para el trabajo final
   
 ### 28 de Abril 2021
