@@ -37,10 +37,16 @@ public static void imprimirDisplay(int n,int m){
 	public static void main(String[] args) {
 		
 
-		displayVacio(5,5);
-		System.out.println("Espacio");
-		imprimirDisplay(6,7);
-		System.out.println("Espacio 2");
+		System.out.println();
+				System.out.println("Bienvenido a Adivina la Canción, tienes las siguientes opciones para comenzar:");
+				System.out.println("1. Comenzar Juego");
+				System.out.println("2. Balance de créditos");	
+				System.out.println("3. Reglas del juego");
+				System.out.println("4. Tienda");
+				System.out.println("5. Realizar Tutorial");
+				System.out.println("6. Salir");
+
+
 		
 
 		
