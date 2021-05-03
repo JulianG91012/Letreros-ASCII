@@ -89,19 +89,35 @@
   
   Dificultades con la realización del menú
 
-### XX de Mayo 2021
+### 03 de Mayo 2021
 
 - ¿Qué hemos hecho?
   
+  Investigar funciones y definir nuestro proyecto
+
+  Proyecto: "Adivina la canción" - En este juego empezarás con una cantidad de créditos asignada al jugador, se reproducirán 5 canciones/fragmentos de las canciones y se darán varias 
+  opciones, el usuario selecciona la opción que crea correcta y dependiendo de qué tan correcta sea se le sumarán o restarán puntos, en el momento en que el jugador pierda sus puntos 
+  y estos lleguen a 0 se termina el juego. Los puntos pueden ser usados para obtener pistas de la letra, momento de la canción, etc. 
   
-  
+- ¿Que voy a hacer?
+
+  Terminar menú y empezar a agregar las canciones
+
+- ¿Que dificultades tengo?
+
+  Entender algunas de las funciones del profe y aplicarlas correctamente
+
+### XX de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+
+
 - ¿Que voy a hacer?
 
 
 
 - ¿Que dificultades tengo?
-
-
 
 
 
