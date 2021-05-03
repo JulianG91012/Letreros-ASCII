@@ -39,7 +39,7 @@
 
   Organizar en el repositorio del profe la letra de la canción con el archivo .midi
   
--¿Que dificultades tengo?
+- ¿Que dificultades tengo?
 
   Elección de aplicación del trabajo final
 
@@ -53,7 +53,7 @@
 
   Organizar el Seguimiento correctamente
   
--¿Que dificultades tengo?
+- ¿Que dificultades tengo?
 
   Elegir una aplicación creativa para el trabajo final
   
