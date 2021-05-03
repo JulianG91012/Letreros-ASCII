@@ -1,7 +1,19 @@
 # Este archivo tiene el seguimiento del trabajo final
-07/04/2021
+
+### 07 de Abril 2021
+- ¿Qué Hemos hecho?
 Se crea el archivo de seguimiento
-11/04/2021
+
+-¿Qué voy a hacer?
+Subir imagenes a elección al repositorio
+
+-¿Qué dificultades tengo?
+Subida de imagenes no "predeterminadas"
+
+### 11 de Abril 2021
+
+- ¿Qué Hemos hecho?
+
 Se sube la primera imagen, varios intentos para lograrlo
 Se sube el primer emoji
 Andrés: subo la imagen intentando subir una imagen desde la raiz del repositorio. se sube el emoji 
