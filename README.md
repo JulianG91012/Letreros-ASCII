@@ -8,7 +8,6 @@ Imagen subida por Julian:
 ![Pelusa](./Imagenes/A_littel_bite.jpg)
 Imagen subida por Andrés: 
 ![Image of Shen](./Imagenes/shen.jpg)
->>>>>>> b8252c38b8ba83d9a57081e50a1f25878166f40b
 ## Emojis: 
 Primer Emoji Julian: 
 :upside_down_face:
