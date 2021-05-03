@@ -47,21 +47,21 @@ public class ADIVINA_LA_CANCION {
 			JOptionPane.showMessageDialog(null, "Has ingresado un número erróneo");
 		}
 		else {
-		switch (Integer.parseInt(numero)) {	
+		switch ((numero)) {	
 
-			case "1" : System.out.println("Camisa Negra - Juanes");
+			case 1 : System.out.println("Camisa Negra - Juanes");
 			break;
 
-			case "2" : System.out.println("Rayando el sol - Maná");
+			case 2 : System.out.println("Rayando el sol - Maná");
 			break;
 
-			case "3" : System.out.println("Gasolina - Daddy Yankee");
+			case 3 : System.out.println("Gasolina - Daddy Yankee");
 			break;
 
-			case "4" : System.out.println("Titanic - ");
+			case 4 : System.out.println("Titanic - ");
 			break;
 
-			case "5" : System.out.println("Mis Ojos Lloran por ti");
+			case 5 : System.out.println("Mis Ojos Lloran por ti");
 			break;
 
 			default : System.out.println("El numero ingresado no es válido");
