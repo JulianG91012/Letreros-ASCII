@@ -2,13 +2,13 @@
 
 ### 07 de Abril 2021
 - ¿Qué Hemos hecho?
-  Se crea el archivo de seguimiento
+-   Se crea el archivo de seguimiento
 
--¿Qué voy a hacer?
-  Subir imagenes a elección al repositorio
+- ¿Qué voy a hacer?
+-   Subir imagenes a elección al repositorio
 
--¿Qué dificultades tengo?
-  Subida de imagenes no "predeterminadas"
+- ¿Qué dificultades tengo?
+-   Subida de imagenes no "predeterminadas"
 
 ### 11 de Abril 2021
 
