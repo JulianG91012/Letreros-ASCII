@@ -2,7 +2,7 @@ import org.fusesource.jansi.AnsiConsole;
 import static org.fusesource.jansi.Ansi.*;
 import static org.fusesource.jansi.Ansi.Color.*;
 
-public class Programa{
+public class AdivinaLaCancion{
 
 	public static String convertirUnicode(String letra,String cadena){
 		
@@ -99,6 +99,10 @@ public class Programa{
 		int centinela = 0;	
 		int indice_cancion = 0;
 		int inicio_letra = 0, fin_letra = 0;
+		int respuesta = 0;
+		double valorDado = 0;
+		double valorDado2 = 0;
+		double valorDado3 = 0;
 		String [] canciones;
 		String [][] info_canciones;
 		StringBuilder letra_cancion;
@@ -118,6 +122,27 @@ public class Programa{
 				//TODO: Ojo falta validar la entrada de datos
 				//TODO: Recuerde usar el helper ConsoleInput y validar
 				centinela = ConsoleInput.getInt();
+				if (centinela == 1){
+					
+					
+					 valorDado = (Math.random()*(info_canciones.length-1) + 1);
+					 int value = (int)Math.round(valorDado);
+
+					 audio.seleccionarCancion(info_canciones[value][ConsoleData.RUTA_CANCION]);
+					 audio.reproducir();
+
+					 System.out.println("¿Como se llama esta canción? \n");
+
+					 
+					 valorDado2 = (Math.random()*(info_canciones.length-1) + 1);
+					 int opcion1 = (int)Math.round(valorDado2);
+					 valorDado3 = (Math.random()*(info_canciones.length-1) + 1);
+					 int opcion2 = (int)Math.round(valorDado3);
+					 System.out.println(info_canciones[opcion1][ConsoleData.NOMBRE_CANCION]);
+					 System.out.println(info_canciones[opcion2][ConsoleData.NOMBRE_CANCION]);
+					 System.out.println(info_canciones[value][ConsoleData.NOMBRE_CANCION]);
+
+				}
 
 				if(centinela == 2)
 				{
