@@ -80,14 +80,14 @@ public class AdivinaLaCancion{
 		System.out.println("	|		     |_|                    |___/                  |");
 				  imprimir("	|                                                          	   |");
 		*/
-				  imprimir("	|                    Bienvenido a adivina la canción, tienes las siguientes opciones para comenzar: 		 	   |");
-				  imprimir("	|                    1. Comenzar juego		 	   |");
-				  imprimir("	|                    2. Balance de créditos			   |");
-				  imprimir("	|                    3. Reglas del juego				   |");
-				  imprimir("	|                    4. Tienda				   |");
-				  imprimir("	|                    5. Realizar tutorial		   |");
-				  imprimir("	|                    6. Salir.					   |\n");
-		System.out.println("	|__________________________________________________________________|");
+				  imprimir("	|    Bienvenido a adivina la canción, tienes las siguientes opciones para comenzar:     |");
+				  imprimir("	|                           1. Comenzar juego		 	                        |");
+				  imprimir("	|                           2. Balance de créditos		                        |");
+				  imprimir("	|                           3. Reglas del juego		                                |");
+				  imprimir("	|                           4. Tienda				                        |");
+				  imprimir("	|                           5. Realizar tutorial		                        |");
+				  imprimir("	|                           6. Salir.					                |");
+		System.out.println("	|_______________________________________________________________________________________|");
 		System.out.print("	AdivinaLaCancion$ ");
 	}
 
@@ -100,6 +100,9 @@ public class AdivinaLaCancion{
 		int indice_cancion = 0;
 		int inicio_letra = 0, fin_letra = 0;
 		int respuesta = 0;
+		int opcion1 = 0;
+		int opcion2 = 0;
+		double SeleccionMultiple = 0;
 		double valorDado = 0;
 		double valorDado2 = 0;
 		double valorDado3 = 0;
@@ -131,17 +134,83 @@ public class AdivinaLaCancion{
 					 audio.seleccionarCancion(info_canciones[value][ConsoleData.RUTA_CANCION]);
 					 audio.reproducir();
 
+					 SeleccionMultiple = Math.random()*4 + 1;
+					 int MultipleSeleccion = (int)Math.round(SeleccionMultiple);
+					 /*
 					 System.out.println("¿Como se llama esta canción? \n");
-
-					 
 					 valorDado2 = (Math.random()*(info_canciones.length-1) + 1);
 					 int opcion1 = (int)Math.round(valorDado2);
 					 valorDado3 = (Math.random()*(info_canciones.length-1) + 1);
 					 int opcion2 = (int)Math.round(valorDado3);
-					 System.out.println(info_canciones[opcion1][ConsoleData.NOMBRE_CANCION]);
-					 System.out.println(info_canciones[opcion2][ConsoleData.NOMBRE_CANCION]);
-					 System.out.println(info_canciones[value][ConsoleData.NOMBRE_CANCION]);
+					*/
+					 switch(MultipleSeleccion){
+					 	case 1:
+					 		 System.out.println("¿Como se llama esta canción? \n");
+							 valorDado2 = (Math.random()*(info_canciones.length-1) + 1);
+							  opcion1 = (int)Math.round(valorDado2);
+							 valorDado3 = (Math.random()*(info_canciones.length-1) + 1);
+							  opcion2 = (int)Math.round(valorDado3);
+					 	 	System.out.println("1. " + info_canciones[opcion1][ConsoleData.NOMBRE_CANCION]);
+						 	System.out.println("2. " + info_canciones[opcion2][ConsoleData.NOMBRE_CANCION]);
+							System.out.println("3. " + info_canciones[value][ConsoleData.NOMBRE_CANCION]);
+						 	respuesta = ConsoleInput.getInt();
+						 		if (respuesta == 3) {
+						 			System.out.println("Has acertado!");
+						 			//hacer creditos 
+						 			audio.detener();
+						 		}
+						 		else{
+						 			System.out.println("No has acertado!");
+						 			audio.detener();
 
+						 		}
+						 break;
+
+						 case 2: 
+							 System.out.println("¿Como se llama esta canción? \n");
+							 valorDado2 = (Math.random()*(info_canciones.length-1) + 1);
+							  opcion1 = (int)Math.round(valorDado2);
+							 valorDado3 = (Math.random()*(info_canciones.length-1) + 1);
+							  opcion2 = (int)Math.round(valorDado3);
+						 	System.out.println("1. " + info_canciones[opcion1][ConsoleData.NOMBRE_CANCION]);
+						  	System.out.println("2. " + info_canciones[value][ConsoleData.NOMBRE_CANCION]);
+						  	System.out.println("3. " + info_canciones[opcion2][ConsoleData.NOMBRE_CANCION]);
+						  	respuesta = ConsoleInput.getInt();
+						 		if (respuesta == 2) {
+						 			System.out.println("Has acertado!");
+						 			//hacer creditos 
+						 			audio.detener();
+						 		}
+						 		else{
+						 			System.out.println("No has acertado!");
+						 			audio.detener();
+						 		}
+						  break;
+
+						  case 3: 
+						 System.out.println("¿Como se llama esta canción? \n");
+						  valorDado2 = (Math.random()*(info_canciones.length-1) + 1);
+						   opcion1 = (int)Math.round(valorDado2);
+			           	  valorDado3 = (Math.random()*(info_canciones.length-1) + 1);
+					       opcion2 = (int)Math.round(valorDado3);
+						  System.out.println("1. " + info_canciones[value][ConsoleData.NOMBRE_CANCION]);
+						  System.out.println("2. " + info_canciones[opcion1][ConsoleData.NOMBRE_CANCION]);
+						  System.out.println("3. " + info_canciones[opcion2][ConsoleData.NOMBRE_CANCION]);
+						  respuesta = ConsoleInput.getInt();
+						 		if (respuesta == 1) {
+						 			System.out.println("Has acertado!");
+						 			//hacer creditos 
+						 			audio.detener();
+						 		}
+						 		else{
+						 			System.out.println("No has acertado!");
+						 			audio.detener();
+						 		}
+						  break;
+
+						  default : 
+					 
+					 }
 				}
 
 				if(centinela == 2)
