@@ -63,24 +63,18 @@ public class AdivinaLaCancion{
 	}
 
 	public static void menu(){
-		/*
-		System.out.println("	 __________________________________________________________________");
-		System.out.println("	|                              _     _                             |");
-		System.out.println("	|                             ( \\---/ )                            |");
-		System.out.println("	|                              ) . . (                             |");
-		System.out.println("	|________________________,--._(___Y___)_,--.____________________hjw|");
-		System.out.println("	|                        `--'           `--'                       |");
-		System.out.println("	|		                  _   _  __                        |");
-		System.out.println("	|		                 | | (_)/ _|                       |");
-		System.out.println("	|		  ___ _ __   ___ | |_ _| |_ _   _                  |");
-		System.out.println("	|		 / __| '_ \\ / _ \\| __| |  _| | | |                 |");
-		System.out.println("	|		 \\__ \\ |_) | (_) | |_| | | | |_| |                 |");
-		System.out.println("	|		 |___/ .__/ \\___/ \\__|_|_|  \\__, |                 |");
-		System.out.println("	|		     | |                     __/ |                 |");
-		System.out.println("	|		     |_|                    |___/                  |");
-				  imprimir("	|                                                          	   |");
-		*/
-				  imprimir("	|    Bienvenido a adivina la canción, tienes las siguientes opciones para comenzar:     |");
+		
+	   System.out.println("          		                                                                                  ");
+       System.out.println("                                                                                                 ");
+       System.out.println("                        _ _       _               _          _____                 _             ");
+       System.out.println("               /\\      | (_)     (_)             | |        / ____|               (_)            ");
+       System.out.println("              /  \\   __| |___   ___ _ __   __ _  | | __ _  | |     __ _ _ __   ___ _  ___  _ __  ");
+       System.out.println("             / /\\ \\ / _` | \\ \\ / / | '_ \\ / _` | | |/ _` | | |    / _` | '_ \\ / __| |/ _ \\| '_ \\ ");
+       System.out.println("            / ____ \\ (_| | |\\ V /| | | | | (_| | | | (_| | | |___| (_| | | | | (__| | (_) | | | |");
+       System.out.println("           /_/    \\_\\__,_|_| \\_/ |_|_| |_|\\__,_| |_|\\__,_|  \\_____\\__,_|_| |_|\\___|_|\\___/|_| |_|");
+       System.out.println("                                                                                               ");
+       System.out.println("                                                                                                 ");
+				  imprimir("	|        Bienvenido, tienes las siguientes opciones para comenzar:                      |");
 				  imprimir("	|                           1. Comenzar juego		 	                        |");
 				  imprimir("	|                           2. Balance de créditos		                        |");
 				  imprimir("	|                           3. Reglas del juego		                                |");
@@ -102,6 +96,8 @@ public class AdivinaLaCancion{
 		int respuesta = 0;
 		int opcion1 = 0;
 		int opcion2 = 0;
+		int creditos = 50;
+		int i = 0;
 		double SeleccionMultiple = 0;
 		double valorDado = 0;
 		double valorDado2 = 0;
@@ -126,7 +122,7 @@ public class AdivinaLaCancion{
 				//TODO: Recuerde usar el helper ConsoleInput y validar
 				centinela = ConsoleInput.getInt();
 				if (centinela == 1){
-					
+					while (i < 2){
 					
 					 valorDado = (Math.random()*(info_canciones.length-1) + 1);
 					 int value = (int)Math.round(valorDado);
@@ -134,15 +130,11 @@ public class AdivinaLaCancion{
 					 audio.seleccionarCancion(info_canciones[value][ConsoleData.RUTA_CANCION]);
 					 audio.reproducir();
 
-					 SeleccionMultiple = Math.random()*4 + 1;
+					 SeleccionMultiple = Math.random()*2 + 1;
 					 int MultipleSeleccion = (int)Math.round(SeleccionMultiple);
-					 /*
-					 System.out.println("¿Como se llama esta canción? \n");
-					 valorDado2 = (Math.random()*(info_canciones.length-1) + 1);
-					 int opcion1 = (int)Math.round(valorDado2);
-					 valorDado3 = (Math.random()*(info_canciones.length-1) + 1);
-					 int opcion2 = (int)Math.round(valorDado3);
-					*/
+					 
+					 
+
 					 switch(MultipleSeleccion){
 					 	case 1:
 					 		 System.out.println("¿Como se llama esta canción? \n");
@@ -155,15 +147,21 @@ public class AdivinaLaCancion{
 							System.out.println("3. " + info_canciones[value][ConsoleData.NOMBRE_CANCION]);
 						 	respuesta = ConsoleInput.getInt();
 						 		if (respuesta == 3) {
-						 			System.out.println("Has acertado!");
+						 			System.out.println("Has acertado!\n");
+						 			creditos = creditos + 10;
+						 			System.out.println("\nAhora tus creditos son: " + creditos + ", felicidades!");
 						 			//hacer creditos 
 						 			audio.detener();
 						 		}
 						 		else{
-						 			System.out.println("No has acertado!");
+						 			System.out.println("No has acertado!\n");
+						 			creditos =creditos - 10;
+						 			System.out.println("ahora tus creditos son: " + creditos + ", sigue intentandolo!");
 						 			audio.detener();
 
 						 		}
+								System.out.println("\nPara continuar digite 1.\nPara volver al menu principal digite 2.");
+						 		i = ConsoleInput.getInt();
 						 break;
 
 						 case 2: 
@@ -177,14 +175,21 @@ public class AdivinaLaCancion{
 						  	System.out.println("3. " + info_canciones[opcion2][ConsoleData.NOMBRE_CANCION]);
 						  	respuesta = ConsoleInput.getInt();
 						 		if (respuesta == 2) {
-						 			System.out.println("Has acertado!");
+						 			System.out.println("Has acertado!\n");
+						 			creditos = creditos + 10;
+						 			System.out.println("\nAhora tus creditos son: " + creditos + ", felicidades!");
 						 			//hacer creditos 
 						 			audio.detener();
 						 		}
 						 		else{
-						 			System.out.println("No has acertado!");
+						 			System.out.println("\nNo has acertado!");
+						 			creditos = creditos - 10;
+						 			System.out.println("\nAhora tus creditos son: " + creditos + ", sigue intentandolo!");
 						 			audio.detener();
 						 		}
+						 		System.out.println("\nPara continuar digite 1.\nPara volver al menu principal digite 2.");
+						 		i = ConsoleInput.getInt();
+						 		
 						  break;
 
 						  case 3: 
@@ -198,43 +203,39 @@ public class AdivinaLaCancion{
 						  System.out.println("3. " + info_canciones[opcion2][ConsoleData.NOMBRE_CANCION]);
 						  respuesta = ConsoleInput.getInt();
 						 		if (respuesta == 1) {
-						 			System.out.println("Has acertado!");
+						 			System.out.println("\nHas acertado!");
+						 			creditos = creditos + 10;
+						 			System.out.println("\nAhora tus creditos son: " + creditos + ", felicidades!");
 						 			//hacer creditos 
 						 			audio.detener();
 						 		}
 						 		else{
-						 			System.out.println("No has acertado!");
+						 			System.out.println("\nNo has acertado!");
+						 			creditos = creditos - 10;
+						 			System.out.println("\nAhora tus creditos son: " + creditos + ", sigue intentando!");
 						 			audio.detener();
 						 		}
+						 		System.out.println("\nPara continuar digite 1.\nPara volver al menu principal digite 2.");
+						 		i = ConsoleInput.getInt();
 						  break;
 
 						  default : 
 					 
 					 }
 				}
-
+			}
 				if(centinela == 2)
 				{
-					//TODO: Controlar que el archivo de la cancion exista
-					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
-					indice_cancion = ConsoleInput.getInt();
-					audio.seleccionarCancion(info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
-					audio.reproducir();
+					System.out.println("Tus creditos actuales son: " + creditos);
 				}
 
 				if(centinela == 3)
 				{
-					//TODO: Ojo, falta validar el valor ingresado
-					//TODO: Falta darle formato amigable de lectura al usuario 
-					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
-					indice_cancion = ConsoleInput.getInt();
-
-					inicio_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.INICIO_CANCION]);
-					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
-					
-					letra_cancion = obtenerLetraCancion(inicio_letra,fin_letra,canciones);
-
-					imprimir(letra_cancion.toString());
+					System.out.println("Las reglas del juego son: ");
+					System.out.println("1. Solamente se tienen 3 intentos para adivinar la cancion.");
+					System.out.println("2. Si no se tienen los creditos no podra continuar.");
+					System.out.println("3. El nombre le cancion debe ser escrito completo y con buena ortografia");
+					System.out.println("4. Se puede retirar en cualquier momento con los creditos que al final le daran un puntaje.");
 				}
 
 				if(centinela == 4)
