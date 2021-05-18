@@ -78,7 +78,7 @@ public class AdivinaLaCancion{
 				  imprimir("	|                           1. Comenzar juego		 	                        |");
 				  imprimir("	|                           2. Balance de créditos		                        |");
 				  imprimir("	|                           3. Reglas del juego		                                |");
-				  imprimir("	|                           4. Tienda				                        |");
+				  imprimir("	|                           4. Tienda de pistas				                        |");
 				  imprimir("	|                           5. Realizar tutorial		                        |");
 				  imprimir("	|                           6. Salir.					                |");
 		System.out.println("	|_______________________________________________________________________________________|");
