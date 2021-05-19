@@ -175,7 +175,7 @@ public class AdivinaLaCancion{
 						 			puntaje = puntaje + 10;
 						 			victorias = victorias + 1;
 						 			System.out.println("\nAhora tu puntaje es: " + puntaje + ", felicidades!");
-						 			//hacer puntaje 
+						 			 
 						 			audio.detener();
 						 		}
 						 		else{
@@ -207,7 +207,7 @@ public class AdivinaLaCancion{
 						 			puntaje = puntaje + 10;
 						 			victorias = victorias + 1;
 						 			System.out.println("\nAhora tu puntaje es: " + puntaje + ", felicidades!");
-						 			//hacer puntaje 
+						 			 
 						 			audio.detener();
 						 		}
 						 		else{
@@ -239,7 +239,6 @@ public class AdivinaLaCancion{
 						 			puntaje = puntaje + 10;
 						 			victorias = victorias + 1;
 						 			System.out.println("\nAhora tu puntaje es: " + puntaje + ", felicidades!");
-						 			//hacer puntaje 
 						 			audio.detener();
 						 		}
 						 		else{
