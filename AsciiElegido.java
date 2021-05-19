@@ -11,9 +11,28 @@ public class AsciiElegido{
        System.out.println("                                                                                       ");
        System.out.println("                                                                                       ");
 
-
-
-	}
+ 
+System.out.println("                                             ");
+System.out.println("                                                      ||||                                            ");
+System.out.println("                                             |||||||||||||                                            ");
+System.out.println("                                       |||||||||||||||||||                                            ");
+System.out.println("                                ||||||||||||||||       |||                                            ");
+System.out.println("                                ||||||||||             |||                                            ");
+System.out.println("                                |||                  |||||                                            ");
+System.out.println("                                |||         ||||||||||||||                                            ");
+System.out.println("                                |||||||||||||||||||||  |||                                            ");
+System.out.println("                                ||||||||||||           |||                                            ");
+System.out.println("                        ||||||||||              ||||||||||                                            ");
+System.out.println("                      ||||||||||||            ||||||||||||                                            ");
+System.out.println("                     |||||    ||||          ||||||  ||||||                                            ");
+System.out.println("                     |||       |||         |||||       |||                                            ");
+System.out.println("                     |||       |||        ||||||       |||                                            ");
+System.out.println("                     |||      ||||         |||||      ||||                                            ");
+System.out.println("                     |||||||||||             ||||||||||||                                            ");
+System.out.println("                                                                                       ");
+System.out.println("                                             ");
+                      
+}
 
 
 

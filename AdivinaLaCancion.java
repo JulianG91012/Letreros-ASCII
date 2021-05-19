@@ -63,7 +63,23 @@ public class AdivinaLaCancion{
 	}
 
 	public static void menu(){
-		
+       System.out.println("                                                            ||||                                            ");
+	   System.out.println("                                                   |||||||||||||                                            ");
+	   System.out.println("                                             |||||||||||||||||||                                            ");
+	   System.out.println("                                      ||||||||||||||||       |||                                            ");
+	   System.out.println("                                      ||||||||||             |||                                            ");
+	   System.out.println("                                      |||                  |||||                                            ");
+	   System.out.println("                                      |||         ||||||||||||||                                            ");
+	   System.out.println("                                      |||||||||||||||||||||  |||                                            ");
+	   System.out.println("                                      ||||||||||||           |||                                            ");
+	   System.out.println("                              ||||||||||              ||||||||||                                            ");
+	   System.out.println("                            ||||||||||||            ||||||||||||                                            ");
+	   System.out.println("                           |||||    ||||          ||||||  ||||||                                            ");
+	   System.out.println("                           |||       |||         |||||       |||                                            ");
+	   System.out.println("                           |||       |||        ||||||       |||                                            ");
+	   System.out.println("                           |||      ||||         |||||      ||||                                            ");
+	   System.out.println("                           |||||||||||             ||||||||||||                                            ");
+	   System.out.println("                                                                                                     ");
 	   System.out.println("          		                                                                                  ");
        System.out.println("                                                                                                 ");
        System.out.println("                        _ _       _               _          _____                 _             ");
