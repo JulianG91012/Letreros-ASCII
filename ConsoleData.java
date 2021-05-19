@@ -62,7 +62,6 @@ public class ConsoleData{
 
 		fin_letra = data.length-2;
 		out.add(inicio_letra+";"+fin_letra+";"+info_actual);
-
 		return ConsoleFile.arrayListToMatrix(out);
 	}
 
