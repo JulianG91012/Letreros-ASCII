@@ -92,7 +92,7 @@ public class AdivinaLaCancion{
        System.out.println("                                                                                                 ");
 				  imprimir("	|        Bienvenido, tienes las siguientes opciones para comenzar:                      |");
 				  imprimir("	|                           1. Comenzar juego		 	                        |");
-				  imprimir("	|                           2. Balance de créditos		                        |");
+				  imprimir("	|                           2. Balance de puntajes		                        |");
 				  imprimir("	|                           3. Reglas del juego		                                |");
 				  imprimir("	|                           4. Rachas				                        |");
 				  imprimir("	|                           5. Informacion musical 				                        |");
