@@ -322,12 +322,16 @@ public class AdivinaLaCancion{
 					System.out.println();
 					imprimir("Inicio letra "+inicio_letra);
 					imprimir("Fin letra "+fin_letra);
-					imprimir("Nombre "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]);
-					imprimir("Autor "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
-					imprimir("Archivo "+info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
+					imprimir("Nombre "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION].replace(";", " "));
+					imprimir("Autor "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION].replace(";", " "));
+					imprimir("Archivo "+info_canciones[indice_cancion][ConsoleData.RUTA_CANCION].replace(";", " "));
 
-					imprimir("Primera estrofa: "+canciones[inicio_letra]);
-					imprimir("Última estrofa: "+canciones[fin_letra]);
+					imprimir("Primera estrofa: "+canciones[inicio_letra].replace(";", " "));
+					imprimir("Última estrofa: "+canciones[fin_letra].replace(";", " "));
+					imprimir("LETRA: \n");
+
+					letra_cancion = obtenerLetraCancion(inicio_letra,fin_letra,canciones);
+					System.out.println(letra_cancion.toString().replace(";", " "));
 					System.out.println("\nPara volver al menu principal digite 2.");
 						o = ConsoleInput.getInt();
 					
