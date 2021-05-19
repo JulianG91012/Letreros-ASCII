@@ -134,13 +134,12 @@ public class AdivinaLaCancion{
 			
 			do{
 
-				// imprimir(""+RandomHelper.random(1,10));
+				
 
 				System.out.println();
-				//TODO: Terminar la funcion para que imprima todos los caracteres especiales que use el programa
+				
 				menu();
-				//TODO: Ojo falta validar la entrada de datos
-				//TODO: Recuerde usar el helper ConsoleInput y validar
+				
 				centinela = ConsoleInput.getInt();
 				if (centinela == 1){
 					
