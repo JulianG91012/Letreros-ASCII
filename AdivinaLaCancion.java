@@ -1,6 +1,6 @@
-//import org.fusesource.jansi.AnsiConsole;
-//import static org.fusesource.jansi.Ansi.*;
-//import static org.fusesource.jansi.Ansi.Color.*;
+import org.fusesource.jansi.AnsiConsole;
+import static org.fusesource.jansi.Ansi.*;
+import static org.fusesource.jansi.Ansi.Color.*;
 
 public class AdivinaLaCancion{
 
@@ -29,7 +29,7 @@ public class AdivinaLaCancion{
 				case "ñ": caracter = '\u00F1';
 					      break;
 			}
-			// System.out.println("\\u" + Integer.toHexString('÷' | 0x10000).substring(1));
+			
 			str.replace(indice,indice+1,""+caracter);
 		}
 
@@ -61,6 +61,7 @@ public class AdivinaLaCancion{
 
 		return str;
 	}
+	//Se muestra el menu principal de nuestra aplicacion.
 
 	public static void menu(){
        System.out.println("                                                            ||||                                            ");
@@ -103,7 +104,7 @@ public class AdivinaLaCancion{
 
 	public static void main(String[] args) {
 		
-		//AnsiConsole.systemInstall();
+		//Se declaran las variables que usaremos en el programa.
 		
 		Audio audio = new Audio();
 		int centinela = 0;	
@@ -162,6 +163,7 @@ public class AdivinaLaCancion{
 				    valorDado3 = (Math.random()*(info_canciones.length-1));
 					opcion2 = (int)Math.round(valorDado3);
 				if (opcion1 != opcion2 && opcion2 != value) {
+					//Se usa un switch para poder mostrar las opciones aleatoriamente.
 					 switch(MultipleSeleccion){
 					 	case 1:
 					 		 System.out.println("¿Como se llama esta canción? \n");
@@ -274,6 +276,7 @@ public class AdivinaLaCancion{
 
 				if(centinela == 2)
 				{
+					//Analizamos la variable de puntaje y se hace el arreglo para no saltar al menu directamente 
 					while(n < 2){
 						if (puntaje > 0) {
 						System.out.println("Tu puntaje actual es: " + puntaje);
@@ -310,6 +313,7 @@ public class AdivinaLaCancion{
 				if(centinela==5)
 				{
 					while (o < 2){ 
+						//se importan los archivos e informacion correspondiente a las canciones y letras
 					
 					imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
 					indice_cancion = ConsoleInput.getInt();
