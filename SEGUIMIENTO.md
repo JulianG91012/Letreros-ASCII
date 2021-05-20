@@ -107,17 +107,141 @@
 
   Entender algunas de las funciones del profe y aplicarlas correctamente
 
-### XX de Mayo 2021
+### 04 de Mayo 2021
 
 - ¿Qué hemos hecho?
 
-
+	Se empieza con la realización del menú funcional usando Switch
 
 - ¿Que voy a hacer?
 
+	Implementar funciones correctamente
 
+- ¿Que dificultades tengo?
+
+	Usar funciones correctamente
+
+### 06 de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+	Se pide sesión para resolver dudas
+	Se le cambia el nombre al programa por minusculas
+	Se implementan funciones al menú
+
+- ¿Que voy a hacer?
+
+	Actualizar archivos necesarios para implementar funciones
 
 - ¿Que dificultades tengo?
 
 
 
+### 09 de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+	Se actualizan archivos para el programa
+
+- ¿Que voy a hacer?
+
+	Modificar Archivo para poder compilar y ejecutar el programa
+
+- ¿Que dificultades tengo?
+
+	Correcto funcionamiento del archivo para compilar
+
+### 10 de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+	Se realiza archivo para compilar y ejecutar
+	Se elige ASCII para interfaz gráfica del menú
+
+- ¿Que voy a hacer?
+
+	Implementar el ASCII en el menú
+
+- ¿Que dificultades tengo?
+
+	Bugs a la hora de elegir canciones
+
+
+### 12 de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+	Se solucionan los bugs y se puede escoger canción correctamente ahora
+
+- ¿Que voy a hacer?
+
+	Actualizar repositorios debido a cambios en ambas versiones
+
+- ¿Que dificultades tengo?
+
+
+### 16 de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+	Se implementan nuevas funciones ya subidas al repositorio grupal y se actualiza el menú
+
+- ¿Que voy a hacer?
+
+	Arreglar nuevamente Bugs en el menú
+
+- ¿Que dificultades tengo?
+
+	Implementación de la letra en las opciones del juego
+
+
+### 17 de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+	Se corrige exitosamente los bugs restantes en el menú
+	Se implementa correctamente la letra desde la base de datos
+
+- ¿Que voy a hacer?
+
+	Pulir funcionamiento del programa
+	Empezar con la presentación de Power Point
+	Actualizar codigo para funcionamiento correcto del jansi en distintos pcs
+
+- ¿Que dificultades tengo?
+
+
+### 19 de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+	Se termina el código 
+	Se arreglan errores y imperfectos de la Interfaz grafica del menú
+
+- ¿Que voy a hacer?
+	
+	Presentar Proyecto final
+
+- ¿Que dificultades tengo?
+
+	Nervios?
+
+
+### 20 de Mayo 2021
+
+- ¿Qué hemos hecho?
+
+	Se presenta el Proyecto final
+	Se graba video
+	Se envía al foro el proyecto
+	Se actualiza el Seguimiento
+	Se termina el trabajo :"c
+
+- ¿Que voy a hacer?
+
+	Take a rest 
+	Seguir con los trabajos de otras materias :"v
+
+- ¿Que dificultades tengo?
+
+	Ninguna hasta el momento, es hora de descansar un poco y seguir repasando conceptos, Muchas Gracias profe!
