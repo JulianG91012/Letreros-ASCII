@@ -115,6 +115,7 @@ public class AdivinaLaCancion{
 		int opcion2 = 0;
 		int puntaje = 50;
 		int i = 0;
+		int l = 0;
 		int n = 0;
 		int p = 0;
 		int o = 0;
@@ -295,12 +296,17 @@ public class AdivinaLaCancion{
 
 				if(centinela == 3)
 				{
+					while(l < 2){
+
 					System.out.println("Las reglas del juego son: ");					
 					System.out.println("1. Sebe poner el valor correcto de la cancion. ");
 					System.out.println("2. Se puede retirar en cualquier momento con los puntajes que al final le daran.");
 					System.out.println("3. Debes ingresar los valores en el rango solicitado. ");
+					System.out.println("\nPara volver al menu principal digite 2.");
+					l = ConsoleInput.getInt();
 				}
-
+					
+				}
 				if(centinela == 4)
 				{
 					while(p < 2){
