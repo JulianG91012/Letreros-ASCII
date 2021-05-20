@@ -298,6 +298,7 @@ public class AdivinaLaCancion{
 					System.out.println("Las reglas del juego son: ");					
 					System.out.println("1. Sebe poner el valor correcto de la cancion. ");
 					System.out.println("2. Se puede retirar en cualquier momento con los puntajes que al final le daran.");
+					System.out.println("3. Debes ingresar los valores en el rango solicitado. ");
 				}
 
 				if(centinela == 4)
